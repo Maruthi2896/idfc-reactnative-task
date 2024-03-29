@@ -23,8 +23,15 @@
         "backgroundColor": "#ffffff"
       }
     },
+    "scheme": "todo-list",
     "web": {
       "favicon": "./assets/favicon.png"
-    }
+    },
+    "plugins": [
+      "expo-router"
+    ]
+  },
+  "web": {
+    "bundler": "metro"
   }
 }
